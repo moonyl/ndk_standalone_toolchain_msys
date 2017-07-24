@@ -34,7 +34,8 @@ import textwrap
 
 THIS_DIR = os.path.realpath(os.path.dirname(__file__))
 #NDK_DIR = os.path.realpath(os.path.join(THIS_DIR, '../..'))
-NDK_DIR = ${NDK_DIR:='/c/Users/user/AppData/Local/Android/sdk/ndk-bundle'}
+NDK_DIR = os.getenv('NDK_DIR')
+#'/c/Users/user/AppData/Local/Android/sdk/ndk-bundle'
 
 def logger():
     """Return the main logger for this module."""
