@@ -6,11 +6,11 @@ The latest version of this document is available at https://github.com/moonyl/nd
 Usage
 -----
 
-In MSYS2, command like the following
+In MSYS2, command like the following.
 
-    ```bash
-    INSTALL_DIR=<where to install toolchain> NDK_DIR=<where NDK is installed> ./make-toolchan.sh
-    ```
+```bash
+INSTALL_DIR=<where to install toolchain> NDK_DIR=<where NDK is installed> ./make-toolchan.sh
+```
 
 Why
 ---
