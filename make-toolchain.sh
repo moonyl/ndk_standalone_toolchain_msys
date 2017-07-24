@@ -2,6 +2,7 @@
 
 API=14
 INSTALL_DIR=${INSTALL_DIR:=./Platform/Android/toolchain}
+echo "INSTALL_DIR=${INSTALL_DIR}"
 
 for ARCH in arm x86 arm64 x86_64
     do
